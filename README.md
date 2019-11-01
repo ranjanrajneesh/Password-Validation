@@ -17,7 +17,7 @@ Write a password validation service, meant to be configurable via IoC (using dep
 * using Spring Boot for rapid application ddevelopment.
 * using Spring IOC container for Dependency Injection 
 * using Maven as a build tool.<br>
-  `mvn clean install -DskipTests=true` will build the app and create the jar jar file in application target folder.
+  `mvn clean install -DskipTests=true` will build the app and create the jar jar file in application target folder.<br>
   `mvn clean test` will run all unit tests.
   `mvn clean install` will run integration testing and fail valid business test scenario.
  * `PasswordValidationRule` is the inteface we need to implement to add a new validation rule.
